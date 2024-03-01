@@ -1,0 +1,107 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Permanent+Marker&display=swap');
+header{
+    display: flex; 
+    justify-content: row;
+    justify-content: space-between;
+    background-color: #f6d6fd;
+    width: 100%;
+
+
+}
+
+header img{
+    margin: 10px 0 0 0;
+}
+
+a{
+    text-decoration:none;
+}
+
+header ul{
+    list-style: none ;
+    display: flex;
+    flex-direction:row ;
+    font-size: 25px;
+    font-family: "Permanent Marker", cursive;
+}
+
+header ul li {
+    margin: 10px;
+}
+
+img{
+    width: 250px;
+}
+
+h1{
+    font-size: 24px;
+    color:antiquewhite;
+    font-family: "Caveat", cursive;
+}
+
+p{
+    font-size: 16px;
+    color:black;
+    flex-direction: row;
+
+}
+
+.main{
+    background-color: #fdf1ff;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.caja{
+    margin: 20px 0 0 0;
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "Caveat", cursive;
+
+}
+
+.caja img{
+    border-radius: 50%;
+    width: 200px;
+}
+
+.carousel{
+    display: flex;
+    align-items: center;
+    margin:50px 0 50px 0;
+}
+
+.carousel img{
+    width: 300px;
+
+}
+
+.mapa{
+    background-color: #fdf1ff;
+}
+
+
+.mapa p{
+    display: flex;
+    justify-content: space-around;
+    font-size: 20px;
+    font-family: "Caveat", cursive;
+}
+
+.mapa iframe{
+    margin: 0 200px 0 200px
+}
+
+footer p{
+    margin: 20px 0 0 0;
+}
+
+
